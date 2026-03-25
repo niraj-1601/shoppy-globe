@@ -9,6 +9,8 @@ const Cart = lazy(() => import("./components/Cart"));
 const Checkout = lazy(() => import("./pages/Checkout"));
 const NotFound = lazy(() => import("./components/NotFound"));
 
+
+
 function App() {
   return (
     <Router>
