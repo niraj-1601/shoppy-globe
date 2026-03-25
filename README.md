@@ -1,16 +1,42 @@
-# React + Vite
+github repository url: https://github.com/niraj-1601/shoppy-globe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ShoppyGlobe
 
-Currently, two official plugins are available:
+ShoppyGlobe is a **React-based e-commerce web application** built as an academic project.  
+It simulates a shopping experience similar to Flipkart or Amazon, with product listing, details, cart, and checkout functionality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Display products fetched from API: `https://dummyjson.com/products`  
+- View detailed information for each product with multiple images  
+- Add, remove, and adjust quantity of products in cart (Redux state)  
+- Search products using Redux  
+- Checkout page with dummy form and order placement  
+- 404 Not Found page for invalid routes  
+- Lazy loading for components and images for performance  
+- Responsive UI for desktop and mobile  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Components
 
-## Expanding the ESLint configuration
+- **App** – main component handling routing  
+- **Header** – navigation and cart icon  
+- **ProductList** – displays product cards  
+- **ProductItem** – single product card with Add to Cart  
+- **ProductDetail** – detailed product page  
+- **Cart** – displays cart items and allows quantity adjustments  
+- **CartItem** – single item in cart  
+- **Checkout** – dummy checkout form with order placement  
+- **NotFound** – 404 page  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React 18 + Vite  
+- Redux Toolkit for state management  
+- React Router v6 for routing  
+- CSS for styling and responsiveness  
+
+## Project Setup
+
+1. Clone the repo:  
+   ```bash
+   git clone https://github.com/Niraj1601/shoppyglobe.git
